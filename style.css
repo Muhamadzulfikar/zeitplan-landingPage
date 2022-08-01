@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    /* font-family: 'Patua One', cursive; */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    align-items: center;
+    background-color: white;
+}
+
+.navlist {
+    display: flex;
+    align-items: center;
+}
+
+.navlist ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+.navlist ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navlist .navlist-active{
+    color: #FE5E44;
+    font-weight: 700;
+}
+
+.btn-primary {
+    width: 145px;
+    height: 40px;
+    background-color: #FE5E44;
+    border: none;
+    box-shadow: 0px 20px 30px rgba(255, 86, 58, 0.15);
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.main-container{
+    padding-top: 140px;
+    padding-left: 50px;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(254, 94, 68, 0.05);
+}
+
+.main-header h1{
+    font-size: 48px;
+    font-family: 'Patua One', cursive;
+    font-weight: bold;
+    color:#0E144A;
+    line-height: 60px;
+}
+
+.main-header h2{
+    font-size: 18px;
+    line-height: 34px;
+    color: #6F6F6F;
+    margin-top: 15px;
+}
+
+.main-button{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 62%;
+}
+
+.btn-secondary{
+    background: rgba(254, 94, 68, 0.2);
+    color: #FE5E44;
+}
